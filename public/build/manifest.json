@@ -12,12 +12,57 @@
     "src": "public/assets/images/logo.jpg"
   },
   "resources/css/app.css": {
-    "file": "assets/app-akpI1ile.css",
+    "file": "assets/app-D2wpRPb8.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
+  "resources/js/Pages/Categories/QuestionsRoute.vue": {
+    "file": "assets/QuestionsRoute-DMiNUz5f.js",
+    "name": "QuestionsRoute",
+    "src": "resources/js/Pages/Categories/QuestionsRoute.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "__plugin-vue_export-helper-DlAUqK2U.js"
+    ]
+  },
+  "resources/js/Pages/Categories/RecipesRoute.vue": {
+    "file": "assets/RecipesRoute-DX4B-Rmj.js",
+    "name": "RecipesRoute",
+    "src": "resources/js/Pages/Categories/RecipesRoute.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "__plugin-vue_export-helper-DlAUqK2U.js"
+    ]
+  },
+  "resources/js/Pages/Categories/SafetyRoute.vue": {
+    "file": "assets/SafetyRoute-BIoFfTHJ.js",
+    "name": "SafetyRoute",
+    "src": "resources/js/Pages/Categories/SafetyRoute.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "__plugin-vue_export-helper-DlAUqK2U.js"
+    ]
+  },
+  "resources/js/Pages/Categories/SocialRoute.vue": {
+    "file": "assets/SocialRoute-mv_1t0K-.js",
+    "name": "SocialRoute",
+    "src": "resources/js/Pages/Categories/SocialRoute.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "__plugin-vue_export-helper-DlAUqK2U.js"
+    ]
+  },
+  "resources/js/Pages/Categories/TrainingRoute.vue": {
+    "file": "assets/TrainingRoute-Dr4P67Ng.js",
+    "name": "TrainingRoute",
+    "src": "resources/js/Pages/Categories/TrainingRoute.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "__plugin-vue_export-helper-DlAUqK2U.js"
+    ]
+  },
   "resources/js/Pages/HomeRoute.vue": {
-    "file": "assets/HomeRoute-CrrALWJS.js",
+    "file": "assets/HomeRoute-YOUWWBnq.js",
     "name": "HomeRoute",
     "src": "resources/js/Pages/HomeRoute.vue",
     "isDynamicEntry": true,
@@ -30,7 +75,7 @@
     ]
   },
   "resources/js/Pages/NotFoundPage.vue": {
-    "file": "assets/NotFoundPage-DjBB5xk8.js",
+    "file": "assets/NotFoundPage-DmC82BmX.js",
     "name": "NotFoundPage",
     "src": "resources/js/Pages/NotFoundPage.vue",
     "isDynamicEntry": true,
@@ -40,23 +85,32 @@
     ]
   },
   "resources/js/Pages/TestRoute.vue": {
-    "file": "assets/TestRoute-C51tqN10.js",
+    "file": "assets/TestRoute-Z5D-R_Oj.js",
     "name": "TestRoute",
     "src": "resources/js/Pages/TestRoute.vue",
     "isDynamicEntry": true,
     "imports": [
-      "resources/js/app.js"
+      "resources/js/app.js",
+      "__plugin-vue_export-helper-DlAUqK2U.js"
     ]
   },
   "resources/js/app.js": {
-    "file": "assets/app-DMeQ6Uyg.js",
+    "file": "assets/app-tu4u3zzY.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
     "dynamicImports": [
       "resources/js/Pages/HomeRoute.vue",
       "resources/js/Pages/TestRoute.vue",
+      "resources/js/Pages/Categories/RecipesRoute.vue",
+      "resources/js/Pages/Categories/TrainingRoute.vue",
+      "resources/js/Pages/Categories/SafetyRoute.vue",
+      "resources/js/Pages/Categories/SocialRoute.vue",
+      "resources/js/Pages/Categories/QuestionsRoute.vue",
       "resources/js/Pages/NotFoundPage.vue"
+    ],
+    "css": [
+      "assets/app-DIACcg-N.css"
     ],
     "assets": [
       "assets/logo-C0YKX-kv.jpg"

@@ -7,11 +7,11 @@ import NavBar from "@/Components/NavBar.vue";
 <template>
     <NavBar></NavBar>
     <div class="">
-    <router-view v-slot="{ Component, route }">
-        <div :key="route.name">
-            <Component :is="Component" />
-        </div>
-    </router-view>
+        <router-view v-slot="{ Component, route }">
+            <div :key="route.name">
+                <Component :is="Component" />
+            </div>
+        </router-view>
     </div>
 </template>
 
