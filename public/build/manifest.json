@@ -12,9 +12,32 @@
     "src": "public/assets/images/logo.jpg"
   },
   "resources/css/app.css": {
-    "file": "assets/app-D2wpRPb8.css",
+    "file": "assets/app-DCUHfwb0.css",
     "src": "resources/css/app.css",
     "isEntry": true
+  },
+  "resources/js/Pages/Admin/IndexPage.vue": {
+    "file": "assets/IndexPage-BL2XJvI3.js",
+    "name": "IndexPage",
+    "src": "resources/js/Pages/Admin/IndexPage.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "__plugin-vue_export-helper-DlAUqK2U.js"
+    ],
+    "css": [
+      "assets/IndexPage-mVHKiBW4.css"
+    ]
+  },
+  "resources/js/Pages/Admin/LoginPage.vue": {
+    "file": "assets/LoginPage-EK4passz.js",
+    "name": "LoginPage",
+    "src": "resources/js/Pages/Admin/LoginPage.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "__plugin-vue_export-helper-DlAUqK2U.js"
+    ]
   },
   "resources/js/Pages/Categories/QuestionsRoute.vue": {
     "file": "assets/QuestionsRoute-DMiNUz5f.js",
@@ -26,12 +49,12 @@
     ]
   },
   "resources/js/Pages/Categories/RecipesRoute.vue": {
-    "file": "assets/RecipesRoute-DX4B-Rmj.js",
+    "file": "assets/RecipesRoute-CaukjvRk.js",
     "name": "RecipesRoute",
     "src": "resources/js/Pages/Categories/RecipesRoute.vue",
     "isDynamicEntry": true,
     "imports": [
-      "__plugin-vue_export-helper-DlAUqK2U.js"
+      "resources/js/app.js"
     ]
   },
   "resources/js/Pages/Categories/SafetyRoute.vue": {
@@ -62,7 +85,7 @@
     ]
   },
   "resources/js/Pages/HomeRoute.vue": {
-    "file": "assets/HomeRoute-YOUWWBnq.js",
+    "file": "assets/HomeRoute-BFZDH5GM.js",
     "name": "HomeRoute",
     "src": "resources/js/Pages/HomeRoute.vue",
     "isDynamicEntry": true,
@@ -75,7 +98,7 @@
     ]
   },
   "resources/js/Pages/NotFoundPage.vue": {
-    "file": "assets/NotFoundPage-DmC82BmX.js",
+    "file": "assets/NotFoundPage-DdP-Rs6k.js",
     "name": "NotFoundPage",
     "src": "resources/js/Pages/NotFoundPage.vue",
     "isDynamicEntry": true,
@@ -85,7 +108,7 @@
     ]
   },
   "resources/js/Pages/TestRoute.vue": {
-    "file": "assets/TestRoute-Z5D-R_Oj.js",
+    "file": "assets/TestRoute-B2h7dkZG.js",
     "name": "TestRoute",
     "src": "resources/js/Pages/TestRoute.vue",
     "isDynamicEntry": true,
@@ -95,7 +118,7 @@
     ]
   },
   "resources/js/app.js": {
-    "file": "assets/app-tu4u3zzY.js",
+    "file": "assets/app-CX8l_lNK.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
@@ -107,6 +130,8 @@
       "resources/js/Pages/Categories/SafetyRoute.vue",
       "resources/js/Pages/Categories/SocialRoute.vue",
       "resources/js/Pages/Categories/QuestionsRoute.vue",
+      "resources/js/Pages/Admin/IndexPage.vue",
+      "resources/js/Pages/Admin/LoginPage.vue",
       "resources/js/Pages/NotFoundPage.vue"
     ],
     "css": [

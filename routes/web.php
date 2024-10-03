@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::post('/testt',[\App\Http\Controllers\API\ProductsController::class,'test']);
+
 Route::get('/{vue_capture?}', function () {
     return view('app');
 })->where('vue_capture', '[\/\w\.-]*');

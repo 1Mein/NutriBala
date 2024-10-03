@@ -8,4 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class DishProduct extends Model
 {
     use HasFactory;
+    protected $guarded = false;
+
 }

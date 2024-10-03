@@ -5,7 +5,17 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
+
 class Dish extends Model
 {
     use HasFactory;
+
+    protected $table = 'dishes';
+    protected $guarded = false;
+
+
+    public function products()
+    {
+        return $this->belongsToMany(Product::class,'dish_products');
+    }
 }

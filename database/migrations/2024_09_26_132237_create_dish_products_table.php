@@ -16,16 +16,16 @@ return new class extends Migration
 
             $table->unsignedBigInteger('dish_id');
             $table->unsignedBigInteger('product_id');
-            $table->float('amount');
-            $table->string('measure');
+            $table->float('amount')->nullable();
+            $table->string('measure')->nullable();
 
             $table->timestamps();
 
             $table->index(['dish_id', 'product_id']);
             $table->unique(['dish_id', 'product_id']);
 
-            $table->foreign('dish_id')->references('id')->on('users')->onDelete('cascade');
-            $table->foreign('product_id')->references('id')->on('notifies')->onDelete('cascade');
+            $table->foreign('dish_id')->references('id')->on('dishes')->onDelete('cascade');
+            $table->foreign('product_id')->references('id')->on('products')->onDelete('cascade');
         });
     }
 

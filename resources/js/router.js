@@ -24,6 +24,12 @@ const routes = [
     },{
         path: "/questions",
         component: () => import("./Pages/Categories/QuestionsRoute.vue"),
+    },{
+        path: "/admin",
+        component: () => import("./Pages/Admin/IndexPage.vue"),
+    },{
+        path: "/admin/login",
+        component: () => import("./Pages/Admin/LoginPage.vue"),
     },
     {
         path: "/:pathMatch(.*)*",
@@ -32,7 +38,18 @@ const routes = [
     }
 ];
 
-export default createRouter({
+const router = createRouter({
     history: createWebHistory(),
     routes,
 });
+
+router.beforeEach((to, from, next) => {
+    const isAuthenticated = localStorage.getItem('token');
+    if (!isAuthenticated && to.path.startsWith('/admin') && to.path !=='/admin/login') {
+        next('/admin/login');
+    } else {
+        next();
+    }
+});
+
+export default router;
