@@ -1,1 +1,0 @@
-import{e as r,f as o}from"./app-W7RTq0b8.js";const u={__name:"RecipesRoute",setup(a){const e=r({user:{}});function t(){return axios.get("api/v1/user").then(s=>e.user=s.data)}return o(t),console.log(e),(s,n)=>" REcipessss "}};export{u as default};

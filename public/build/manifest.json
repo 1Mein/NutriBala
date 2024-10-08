@@ -12,12 +12,12 @@
     "src": "public/assets/images/logo.jpg"
   },
   "resources/css/app.css": {
-    "file": "assets/app-EjqCcFab.css",
+    "file": "assets/app-GxL_QMLB.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
   "resources/js/Pages/Admin/IndexPage.vue": {
-    "file": "assets/IndexPage-BVJE2UhX.js",
+    "file": "assets/IndexPage-CYTQON_J.js",
     "name": "IndexPage",
     "src": "resources/js/Pages/Admin/IndexPage.vue",
     "isDynamicEntry": true,
@@ -30,7 +30,7 @@
     ]
   },
   "resources/js/Pages/Admin/LoginPage.vue": {
-    "file": "assets/LoginPage-ChazJMkk.js",
+    "file": "assets/LoginPage-DiJ640LN.js",
     "name": "LoginPage",
     "src": "resources/js/Pages/Admin/LoginPage.vue",
     "isDynamicEntry": true,
@@ -49,7 +49,7 @@
     ]
   },
   "resources/js/Pages/Categories/RecipesRoute.vue": {
-    "file": "assets/RecipesRoute-Cu3I6EPf.js",
+    "file": "assets/RecipesRoute-nJ-IviJK.js",
     "name": "RecipesRoute",
     "src": "resources/js/Pages/Categories/RecipesRoute.vue",
     "isDynamicEntry": true,
@@ -76,7 +76,7 @@
     ]
   },
   "resources/js/Pages/Categories/TrainingRoute.vue": {
-    "file": "assets/TrainingRoute-CcpleTdR.js",
+    "file": "assets/TrainingRoute-D-2SnJGj.js",
     "name": "TrainingRoute",
     "src": "resources/js/Pages/Categories/TrainingRoute.vue",
     "isDynamicEntry": true,
@@ -85,11 +85,11 @@
       "__plugin-vue_export-helper-DlAUqK2U.js"
     ],
     "css": [
-      "assets/TrainingRoute-BD0wqLhB.css"
+      "assets/TrainingRoute-Bq_OL3TO.css"
     ]
   },
   "resources/js/Pages/HomeRoute.vue": {
-    "file": "assets/HomeRoute-h5M2nO_d.js",
+    "file": "assets/HomeRoute-BPt66d-4.js",
     "name": "HomeRoute",
     "src": "resources/js/Pages/HomeRoute.vue",
     "isDynamicEntry": true,
@@ -102,7 +102,7 @@
     ]
   },
   "resources/js/Pages/NotFoundPage.vue": {
-    "file": "assets/NotFoundPage-BRA6geWl.js",
+    "file": "assets/NotFoundPage-DojQIuMg.js",
     "name": "NotFoundPage",
     "src": "resources/js/Pages/NotFoundPage.vue",
     "isDynamicEntry": true,
@@ -112,7 +112,7 @@
     ]
   },
   "resources/js/Pages/TestRoute.vue": {
-    "file": "assets/TestRoute-JWoc48my.js",
+    "file": "assets/TestRoute-D9NPuDR3.js",
     "name": "TestRoute",
     "src": "resources/js/Pages/TestRoute.vue",
     "isDynamicEntry": true,
@@ -122,7 +122,7 @@
     ]
   },
   "resources/js/app.js": {
-    "file": "assets/app-W7RTq0b8.js",
+    "file": "assets/app-CO26oxiD.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,

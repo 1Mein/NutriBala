@@ -107,7 +107,8 @@ function toggleAccordion(index) {
             <div class="grid gap-5 lg:grid-cols-3 sm:grid-cols-2" v-if="currentItem === null">
 
                 <div v-for="cardItem in cardItems"
-                     class="bg-designColor1 text-gray-100 p-3 rounded-md cursor-pointer "
+                     class="bg-designColor1 text-gray-100 p-3 rounded-md cursor-pointer
+                        transform transition-transform duration-300 hover:scale-105"
                      @click="chooseItem(cardItem['id'])"
                 >
                     <div>
