@@ -12,12 +12,12 @@
     "src": "public/assets/images/logo.jpg"
   },
   "resources/css/app.css": {
-    "file": "assets/app-DCUHfwb0.css",
+    "file": "assets/app-EjqCcFab.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
   "resources/js/Pages/Admin/IndexPage.vue": {
-    "file": "assets/IndexPage-BL2XJvI3.js",
+    "file": "assets/IndexPage-BVJE2UhX.js",
     "name": "IndexPage",
     "src": "resources/js/Pages/Admin/IndexPage.vue",
     "isDynamicEntry": true,
@@ -30,7 +30,7 @@
     ]
   },
   "resources/js/Pages/Admin/LoginPage.vue": {
-    "file": "assets/LoginPage-EK4passz.js",
+    "file": "assets/LoginPage-ChazJMkk.js",
     "name": "LoginPage",
     "src": "resources/js/Pages/Admin/LoginPage.vue",
     "isDynamicEntry": true,
@@ -49,7 +49,7 @@
     ]
   },
   "resources/js/Pages/Categories/RecipesRoute.vue": {
-    "file": "assets/RecipesRoute-CaukjvRk.js",
+    "file": "assets/RecipesRoute-Cu3I6EPf.js",
     "name": "RecipesRoute",
     "src": "resources/js/Pages/Categories/RecipesRoute.vue",
     "isDynamicEntry": true,
@@ -76,16 +76,20 @@
     ]
   },
   "resources/js/Pages/Categories/TrainingRoute.vue": {
-    "file": "assets/TrainingRoute-Dr4P67Ng.js",
+    "file": "assets/TrainingRoute-CcpleTdR.js",
     "name": "TrainingRoute",
     "src": "resources/js/Pages/Categories/TrainingRoute.vue",
     "isDynamicEntry": true,
     "imports": [
+      "resources/js/app.js",
       "__plugin-vue_export-helper-DlAUqK2U.js"
+    ],
+    "css": [
+      "assets/TrainingRoute-BD0wqLhB.css"
     ]
   },
   "resources/js/Pages/HomeRoute.vue": {
-    "file": "assets/HomeRoute-BFZDH5GM.js",
+    "file": "assets/HomeRoute-h5M2nO_d.js",
     "name": "HomeRoute",
     "src": "resources/js/Pages/HomeRoute.vue",
     "isDynamicEntry": true,
@@ -98,7 +102,7 @@
     ]
   },
   "resources/js/Pages/NotFoundPage.vue": {
-    "file": "assets/NotFoundPage-DdP-Rs6k.js",
+    "file": "assets/NotFoundPage-BRA6geWl.js",
     "name": "NotFoundPage",
     "src": "resources/js/Pages/NotFoundPage.vue",
     "isDynamicEntry": true,
@@ -108,7 +112,7 @@
     ]
   },
   "resources/js/Pages/TestRoute.vue": {
-    "file": "assets/TestRoute-B2h7dkZG.js",
+    "file": "assets/TestRoute-JWoc48my.js",
     "name": "TestRoute",
     "src": "resources/js/Pages/TestRoute.vue",
     "isDynamicEntry": true,
@@ -118,7 +122,7 @@
     ]
   },
   "resources/js/app.js": {
-    "file": "assets/app-CX8l_lNK.js",
+    "file": "assets/app-W7RTq0b8.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,

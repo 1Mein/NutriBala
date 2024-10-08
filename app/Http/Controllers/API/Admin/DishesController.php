@@ -18,7 +18,7 @@ class DishesController extends BaseController
     public function store(DishRequest $request): \Illuminate\Http\JsonResponse
     {
         $items = $request->validated();
-        $items['images'] = 'storage/'.$request->file('images')->store('dishes/'.$items['name'].'', 'public');
+        $items['images'] = 'storage/'.$request->file('images')->store('dishes/'.$items['name'], 'public');
 
 
         $product_ids = $items['product_ids'];
